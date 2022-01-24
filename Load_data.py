@@ -16,8 +16,9 @@ path = './data'
 
 
 def Caltech(missrate=0.5):
-    # the data is already be pre-processed
-    Data = scio.loadmat(path + "/Caltech.mat")
+    # Different IMVC methods might utilize different data preprocessing functions, 
+    # including but not limited to standardization, regularization, and min-max normalization, etc.
+    Data = scio.loadmat(path + "/Caltech.mat")     # Upload the dataset, which is already be pre-processed.
     x1 = Data['X1']
     x2 = Data['X2']
     Y = Data['Y']
