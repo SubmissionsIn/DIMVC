@@ -1,3 +1,5 @@
+# Accepted by AAAI 2022, BibTex will be added soon.
+
 # Settings in main.py
     data = 'Caltech'
 
