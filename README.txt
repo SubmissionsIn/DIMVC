@@ -1,4 +1,4 @@
-# Accepted by AAAI 2022, BibTex will be added soon.
+# Accepted by AAAI 2022.
 
 # Settings in main.py
     data = 'Caltech'
@@ -23,3 +23,11 @@
     scikit-learn==0.22.2.post1
     scipy==1.4.1
     tensorflow-gpu==2.5.0
+
+# BibTex
+@InProceedings{Xu_2022_AAAI,
+    author    = {Xu, Jie and Li, Chao and Ren, Yazhou and Peng, Liang and Mo, Yujie and Shi, Xiaoshuang and Zhu, Xiaofeng},
+    title     = {Deep Incomplete Multi-View Clustering via Mining Cluster Complementarity},
+    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+    year      = {2022}
+}
