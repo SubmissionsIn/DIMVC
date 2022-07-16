@@ -29,5 +29,6 @@
     author    = {Xu, Jie and Li, Chao and Ren, Yazhou and Peng, Liang and Mo, Yujie and Shi, Xiaoshuang and Zhu, Xiaofeng},
     title     = {Deep Incomplete Multi-View Clustering via Mining Cluster Complementarity},
     booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-    year      = {2022}
+    year      = {2022},
+    pages     = {8761-8769}
 }
