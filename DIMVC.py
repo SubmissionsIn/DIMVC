@@ -379,7 +379,8 @@ class MvDEC(object):
                 Center_init = kmean.cluster_centers_    # k-means on global features
                 new_P = self.new_P(z, Center_init)      # similarity measure
                 p = self.target_distribution(new_P)     # enhance
-                p = np.dot(p, matrix)                   # P = E(S(H, C))A
+                # p = np.dot(p, matrix)                 # P = E(S(H, C))A,     adjust the arrangement of S
+                p = np.dot(p, matrix.T)                 # P = E(S(H, C))A,     arrangement of S is aligned with last iteration
                 P = []
                 # unify P of supervision loss
                 for view in range(len(x)):
